@@ -1,13 +1,4 @@
-"""
-analytic expressions of spherical harmonics generated with sympy file 
-Marc Russwurm generated 2024-01-31
-
-run 
-python spherical_harmonics_generate_ylms.py > spherical_harmonics_ylm.py
-
-to generate the source code
-"""
-
+#Code originally came from Marc Russwurm, it is simply used to calculate the value of the spherical harmonics for a given theta and phi
 import torch
 from torch import cos, sin
 
